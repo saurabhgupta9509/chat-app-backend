@@ -12,7 +12,7 @@ services:
       - app-network
 
   boot-app:
-    image: batchstech/chatback
+    image: saurabhgupta1203/chatback
     build:
       context: .
       dockerfile: Dockerfile
